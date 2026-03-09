@@ -557,6 +557,11 @@ def team_Seline_Youseff_Marine_Jorge():
 def DestinyV_KyleP_OscarA():
     return render_template('teams/DestinyV_KyleP_OscarA.html')
 
+@app.route("/woo_jos")
+def team_woo_jos():
+    return render_template('teams/team_woo_jos.html')
+
 @app.route("/Kaur_Arteaga_SantaMaria")
 def Kaur_Arteaga_SantaMaria():
     return render_template('teams/Kaur_Arteaga_SantaMaria.html')
+
